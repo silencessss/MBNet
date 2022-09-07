@@ -1,3 +1,34 @@
+## IMPLEMENT
+I forked it from CalayZhou/MBNet. 
+### Implement detail:
+| Item | description |
+|:---:|:---:|
+|CPU|Intel Core i7-10700 CPU @ 2.90GHz|
+|Memory| DDR4 31.9 GB|
+|GPU | nvidia GeForce RTX 3090 |
+|OS | Windows 10|
+| DL. framework | TensorFlow 2.4.1 |
+
+### Dataset detail:
+| Class | #object|
+|:---: | :---:|
+|Person | 2,795|
+|Car | 4,209|
+|Cyclist|3,902|
+
+### Train and test detail:
+|#set | #frames |
+|:---: | :---:|
+|Training set | 4,396|
+|Test set | 1,406 |
+
+### Ground-Truth detail:
+| class | left x | top y | w | h |
+|:---: | :---:| :---:| :---:| :---:|
+|1 | 0.148047 | 0.779861 | 0.286719 | 0.373611 |
+
+---
+
 # MBNet
 Improving Multispectral Pedestrian Detection by Addressing Modality Imbalance Problems (ECCV 2020)
 - paper download: https://arxiv.org/pdf/2008.03043.pdf
@@ -84,33 +115,6 @@ If you find our work useful in your research, please consider citing:
 
 ---
 
-## IMPLEMENT
-I forked it from CalayZhou/MBNet. 
-### Implement detail:
-| Item | description |
-|:---:|:---:|
-|CPU|Intel Core i7-10700 CPU @ 2.90GHz|
-|Memory| DDR4 31.9 GB|
-|GPU | nvidia GeForce RTX 3090 |
-|OS | Windows 10|
-| DL. framework | TensorFlow 2.4.1 |
 
-### Dataset detail:
-| Class | #object|
-|:---: | :---:|
-|Person | 2,795|
-|Car | 4,209|
-|Cyclist|3,902|
-
-### Train and test detail:
-|#set | #frames |
-|:---: | :---:|
-|Training set | 4,396|
-|Test set | 1,406 |
-
-### Ground-Truth detail:
-| class | left x | top y | w | h |
-|:---: | :---:| :---:| :---:| :---:|
-|1 | 0.148047 | 0.779861 | 0.286719 | 0.373611 |
 
 
