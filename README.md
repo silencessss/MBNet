@@ -27,6 +27,9 @@ I forked it from CalayZhou/MBNet.
 |:---: | :---:| :---:| :---:| :---:|
 |1 | 0.148047 | 0.779861 | 0.286719 | 0.373611 |
 
+### some problem and solution..
+- This code could not implement on the windows operating system. Many detail have to modify.
+
 ---
 
 # MBNet
